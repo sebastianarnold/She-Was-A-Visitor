@@ -1,0 +1,2 @@
+include T:/Max/media/speaker_female.wavinclude T:/Max/media/speaker_male.wav
+open thispatcher
