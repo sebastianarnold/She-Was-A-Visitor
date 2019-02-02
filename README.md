@@ -1,10 +1,12 @@
 # She Was A Visitor
 
-"She Was A Visitor" is a vocal piece written by [Robert Ashley](https://en.wikipedia.org/wiki/Robert_Ashley) in 1967. It is based completely on speech and is performed by one single speaker and number of singers that are divided in chorus groups. A copy of the original score can be obtained [here](http://www.worldcat.org/oclc/678777368 Score). This recreation is an attempt to model the chorus digitally using Max 6, allowing a computer to perform the piece on its own or interactively. Please see the included [doc/She Was A Visitor (Recreation of a Composition by Robert Ashley).pdf](essay paper) for more details on the approach and technical documentation.
+"She Was A Visitor" is a vocal piece written by [Robert Ashley](https://en.wikipedia.org/wiki/Robert_Ashley) in 1967. It is based completely on speech and is performed by one single speaker and number of singers that are divided in chorus groups. A copy of the original score can be obtained [here](http://www.worldcat.org/oclc/678777368). This recreation is an attempt to model the chorus digitally using Max 6, allowing a computer to perform the piece on its own or interactively. Please see the included [essay paper](doc/She Was A Visitor (Recreation of a Composition by Robert Ashley).pdf) for more details on the approach and technical documentation.
 
 This Max 6 Patch was created in 2014 by [Sebastian Arnold](http://blog.sebastian-arnold.net/2014/10/she-was-a-visitor/) during the course "A History of Experimental Music in 10 1/2 Chapters" by Nicolas Collins at Technische Universität Berlin, Fachgebiet Audiokommunikation.
 
 Included speaker voices were kindly provided by Tanja Geke and Elias Emken.
+
+Here is a screenshot of the singer DSP model:
 
 <p align="center"><img src="doc/singer.png"></p>
 
@@ -44,26 +46,26 @@ Included speaker voices were kindly provided by Tanja Geke and Elias Emken.
 
 6. the "size" parameter changes the grain size of the chorus, try it!
 
-A performance for 12-speaker multichannel was recorded at [TU Berlin Electronic Studio](https://www.ak.tu-berlin.de/menue/elektronisches_studio/raum_und_ausstattung/) and can be heard at [https://soundcloud.com/experimental-music/sie-liebte-den-mond-1].
+A performance for 12-speaker multichannel was recorded at [TU Berlin Electronic Studio](https://www.ak.tu-berlin.de/menue/elektronisches_studio/raum_und_ausstattung/) and can be heard at <https://soundcloud.com/experimental-music/sie-liebte-den-mond-1>.
 
 
 ### KEYBOARD MAPPING
 
 All of the key mappings are displayed in yellow color:
 
-SPACE   -   start / stop the speaker
-0       -   start / stop recording
-1-8     -   choose a time position for chorus group 1-8
-q-i     -   start / stop chorus 1-8
+- SPACE   -   start / stop the speaker
+- 0       -   start / stop recording
+- 1-8     -   choose a time position for chorus group 1-8
+- q-i     -   start / stop chorus 1-8
 
 
 ### MIDI MAPPING
 
 MIDI bindings are available for Mackie Control compatible devices:
 
-pitch bend CH 1-8 (channel faders)  -   control grain size of chorus 1-8
-CC 0-7 (record)                     -   start / stop chorus 1-8
-CC 8-15 (solo)                      -   choose a time position for chorus group 1-8
+- pitch bend CH 1-8 (channel faders)  -   control grain size of chorus 1-8
+- CC 0-7 (record)                     -   start / stop chorus 1-8
+- CC 8-15 (solo)                      -   choose a time position for chorus group 1-8
 
 
 ## CHANGELOG
