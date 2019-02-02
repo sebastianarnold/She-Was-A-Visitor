@@ -1,6 +1,6 @@
 # She Was A Visitor
 
-"She Was A Visitor" is a vocal piece written by [Robert Ashley](https://en.wikipedia.org/wiki/Robert_Ashley) in 1967. It is based completely on speech and is performed by one single speaker and number of singers that are divided in chorus groups. A copy of the original score can be obtained [here](http://www.worldcat.org/oclc/678777368). This recreation is an attempt to model the chorus digitally using Max 6, allowing a computer to perform the piece on its own or interactively. Please see the included [essay paper](doc/She Was A Visitor (Recreation of a Composition by Robert Ashley).pdf) for more details on the approach and technical documentation.
+"She Was A Visitor" is a vocal piece written by [Robert Ashley](https://en.wikipedia.org/wiki/Robert_Ashley) in 1967. It is based completely on speech and is performed by one single speaker and number of singers that are divided in chorus groups. A copy of the original score can be obtained [here](http://www.worldcat.org/oclc/678777368). This recreation is an attempt to model the chorus digitally using Max 6, allowing a computer to perform the piece on its own or interactively. Please see the included [essay paper](She-Was-A-Visitor-recreation.pdf) for more details on the approach and technical documentation.
 
 This Max 6 Patch was created in 2014 by [Sebastian Arnold](http://blog.sebastian-arnold.net/2014/10/she-was-a-visitor/) during the course "A History of Experimental Music in 10 1/2 Chapters" by Nicolas Collins at Technische Universität Berlin, Fachgebiet Audiokommunikation.
 
